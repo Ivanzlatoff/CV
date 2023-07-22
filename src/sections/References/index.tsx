@@ -60,10 +60,10 @@ export default ({ className }: Props) => {
               icon="phone"
               link={{ text: phone, href: getLinkFromPhone(phone) }}
             />
-            <Row
+            {/* <Row
               icon="envelope"
               link={{ text: email, href: getLinkFromEmail(email) }}
-            />
+            /> */}
           </ul>
         </div>
       ))}

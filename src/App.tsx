@@ -7,7 +7,7 @@ import Extra from 'containers/Extra';
 
 import s from './App.module.scss';
 
-const github = 'https://github.com/artur-skydiver/cv';
+const github = 'https://github.com/ivanzlatoff/CV';
 
 function App() {
   useEffect(() => {

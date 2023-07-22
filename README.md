@@ -1,8 +1,9 @@
 # Artur Blieshcheiev CV
 
-[https://artur-skydiver.github.io/cv/](https://artur-skydiver.github.io/cv/)
+[https://github.com/Ivanzlatoff/CV/](https://github.com/Ivanzlatoff/CV/)
 
 ### `npm i`
+
 ### `npm start`
 
 Runs the app in the development mode.\

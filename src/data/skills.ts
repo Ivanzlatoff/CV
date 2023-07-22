@@ -17,53 +17,23 @@ interface Skill {
 const skills: Skill[] = [
   {
     name: 'HTML, CSS (Sass)',
-    experience: EXPERIENCES.EXPERT,
-    percent: 100
+    experience: EXPERIENCES.EXPERIENCED,
+    percent: 75
   },
   {
     name: 'JavaScript, TypeScript',
-    experience: EXPERIENCES.EXPERT,
-    percent: 90
+    experience: EXPERIENCES.EXPERIENCED,
+    percent: 75
   },
   {
-    name: 'ReactJS, Redux, MobX',
-    experience: EXPERIENCES.EXPERT,
-    percent: 90
-  },
-  {
-    name: 'React Native',
-    experience: EXPERIENCES.EXPERT,
-    percent: 90
-  },
-  {
-    name: 'PHP (Laravel)',
-    experience: EXPERIENCES.EXPERT,
-    percent: 90
+    name: 'ReactJS, Redux',
+    experience: EXPERIENCES.EXPERIENCED,
+    percent: 75
   },
   {
     name: 'Databases',
     experience: EXPERIENCES.EXPERIENCED,
     percent: 75
-  },
-  {
-    name: 'Delphi',
-    experience: EXPERIENCES.EXPERT,
-    percent: 90
-  },
-  {
-    name: 'Figma, Corel Draw, Photoshop',
-    experience: EXPERIENCES.SKILLFULL,
-    percent: 60
-  },
-  {
-    name: '3D Max (V-Ray), AutoCAD',
-    experience: EXPERIENCES.SKILLFULL,
-    percent: 60
-  },
-  {
-    name: 'Premiere, After Effects',
-    experience: EXPERIENCES.SKILLFULL,
-    percent: 50
   }
 ];
 

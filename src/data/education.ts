@@ -9,47 +9,29 @@ interface Institution {
 const education: Institution[] = [
   {
     name: {
-      en: 'I.I. Mechnikov Odessa National University',
-      ru: 'Одесский национальный университет им. И. И. Мечникова',
-      uk: 'Одеський національний університет ім. І. І. Мечникова'
+      en: 'Odessa National Maritime University',
+      ru: 'Одесский национальный морской университет',
+      uk: 'Одеський національний морський університет'
     },
-    dates: '2007–2013',
+    dates: '2008–2013',
     subject: {
-      en: 'Master of Science, Economist cybernetician',
-      ru: 'Магистр наук, экономист-кибернетик',
-      uk: 'Магістр наук, економіст-кібернетик'
+      en: 'Maritime Studies. B.Sc in Maritime Transport',
+      ru: 'Организация перевозок и управление на морском транспорте. Специалист',
+      uk: 'Організація перевезеннь і управління на морському транспортію Спеціаліст'
     }
   },
   {
     name: {
-      en: 'Course on Computer Graphics',
-      ru: 'Курс компьютерной графики',
-      uk: "Курс комп'ютерної графіки"
+      en: 'Free Code Camp',
+      ru: 'Курс онлайн программирования "Фри Код Камп"',
+      uk: 'Курс онлайн програмування "Фрі Код Камп"'
     },
-    dates: '2006–2007',
+    dates: '2021-2022',
     subject: {
-      en: '2D graphics, 3D modeling',
-      ru: '2D графика, 3D моделирование',
-      uk: '2D графіка, 3D моделювання'
+      en: 'Full stack development, python, javascript',
+      ru: 'Фул стак разработка, питон, javascript',
+      uk: 'Фул стак розробка, пітон, javascript'
     }
-  },
-  {
-    name: {
-      en: 'Course on Software Development',
-      ru: 'Курс по разработке программного обеспечения',
-      uk: 'Курс з розробки програмного забезпечення'
-    },
-    dates: '2005–2007',
-    subject: 'Pascal, Delphi'
-  },
-  {
-    name: {
-      en: 'Course on WEB Development',
-      ru: 'Курс по веб-разработке',
-      uk: 'Курс з веб-розробки'
-    },
-    dates: '2006',
-    subject: 'HTML, CSS, JS, PHP'
   }
 ];
 

@@ -14,9 +14,9 @@ type Props = {
 export default ({ className }: Props): JSX.Element => {
   const { l } = useLocales();
   const langName = l({
-    en: 'Artur Blieshcheiev',
-    ru: 'Артур Блещеев',
-    uk: 'Артур Блєщеєв'
+    en: 'Ivan Zlatov',
+    ru: 'Иван Златов',
+    uk: 'Іван Златов'
   });
   return (
     <Transition node="h1" text={langName} className={cn(s.root, className)} />

@@ -43,7 +43,7 @@ export default () => {
         <Contacts />
         <Personal />
         <Works />
-        <Experience />
+        {/* <Experience /> */}
         <Education />
         <Additional />
       </div>

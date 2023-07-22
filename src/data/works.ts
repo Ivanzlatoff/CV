@@ -13,263 +13,162 @@ interface Place {
 
 const works: Place[] = [
   {
-    title: 'FrontEnd developer',
-    partTime: true,
-    company: 'Provectus',
+    title: 'Gateway Operator',
+    company: 'DB Schenker Ltd',
     dates: {
-      en: 'Oct. 2021 – Nov. 2022',
-      ru: 'Окт. 2021 – Ноя. 2022',
-      uk: 'Жов. 2021 – Лис. 2022'
+      en: 'Mar. 2019 – present',
+      ru: 'Мар. 2019 – по сей день',
+      uk: 'Бер. 2019 – по цей день'
     },
-    address: { en: 'Remote', ru: 'Удаленно', uk: 'Дистанційно' },
+    address: { en: 'Schenker House, LHR Portal, Scylla Road, London Heathrow Airport, Hounslow, TW6 3FE, UK ' },
     duties: [
       {
-        en: 'Development of mobile applications',
-        ru: 'Разработка мобильных приложений',
-        uk: 'Розробка мобільних додатків'
+        en: 'Monitor and action generic email boxes and respond in a timely manner',
+        ru: 'Мониторинг и работа с электронной почтой',
+        uk: 'Моніторинг та робота з електронною поштою'
+      },
+      {
+        en: 'Arrange adhoc bookings from the Branches',
+        ru: 'Организация отдельных фрахтов для филиалов',
+        uk: 'Організація окремих фрахтів для філій'
+      },
+      {
+        en: 'Arrange adhoc bookings from the Branches and maintenance of montly Permanent Bokings',
+        ru: 'Организация отдельных фрахтов для филиалов и обслуживание ежемесячных постоянных бронирований',
+        uk: 'Організація окремих фрахтів для філій та обслуговування щомісячних постійних бронювань'
+      },
+      {
+        en: 'Preparation and issuance of all supporting documentation',
+        ru: 'Подготовка и выдача всей сопроводительной документации',
+        uk: 'Підготовка та видача всієї супровідної документації'
+      },
+      {
+        en: 'Post flights (tracking and tracing)',
+        ru: 'Отслеживание рейсов',
+        uk: 'Відстеження рейсів'
       }
     ],
-    tools: ['React Native'],
-    description: {
-      en: 'I\'ve been working on a redesign, bug fixes and new features for the application "BodyFit Fitness Training Coach".',
-      ru: 'Я работал над редизайном, исправлением ошибок и новыми функциями для приложения "BodyFit Fitness Training Coach".',
-      uk: 'Я працював над редизайном, виправленням помилок та новими функціями для додатоку "BodyFit Fitness Training Coach".'
-    }
+    tools: ['Microsoft Office, ProCarS, Sequoia'],
   },
   {
-    title: 'Full-stack developer',
-    company: 'Magic Powered',
+    title: 'Air Export Gateway Agent',
+    company: 'EXPEDITORS INTERNATIONAL (UK) LIMITED',
     dates: {
-      en: 'Sep. 2021 – Jan. 2023',
-      ru: 'Сен. 2021 – Янв. 2023',
-      uk: 'Вер. 2021 – Січ. 2023'
+      en: 'Sep. 2018 – Mar. 2019',
+      ru: 'Сен. 2018 – Мар. 2019',
+      uk: 'Вер. 2018 – Бер. 2019'
     },
-    address: { en: 'Remote', ru: 'Удаленно', uk: 'Дистанційно' },
+    address: { en: '1 Ascot Road Bedfont Middlesex TW14 8QH' },
     duties: [
       {
-        en: 'Development of WEB-services',
-        ru: 'Разработка WEB-сервисов',
-        uk: 'Розробка WEB-сервісів'
+        en: 'Managing a huge flow of emails and phone calls from origin stations, carriers and handlers',
+        ru: 'Обработка огромных потоков электронных писем и телефонных звонков от филиалов, перевозчиков и грузоперерабатывающих предприятий',
+        uk: 'Обробка величезних потоків електронних листів і телефонних дзвінків від філій, перевізників і вантажопереробних підприємств'
       },
       {
-        en: 'Development of BackEnd’s API',
-        ru: 'Разработка BackEnd API',
-        uk: 'Розробка BackEnd API'
+        en: 'Tracking and tracing of outbound shipments',
+        ru: 'Отслеживание исходящих грузовых партий',
+        uk: 'Відстеження вихідних вантажних партій'
       },
       {
-        en: 'Development of mobile applications',
-        ru: 'Разработка мобильных приложений',
-        uk: 'Розробка мобільних додатків'
+        en: 'Updating and monitoring of various reports (data entry)',
+        ru: 'Обновление и мониторинг различных отчетов (ввод данных)',
+        uk: 'Оновлення та моніторинг різних звітів (введення даних)'
+      },
+      {
+        en: 'Processing customs documents in our customs system (data entry)',
+        ru: 'Оформление таможенных документов в нашей таможенной системе (ввод данных)',
+        uk: 'Оформлення митних документів у нашій митній системі (введення даних)'
+      },
+      {
+        en: 'Planning shipments on ULD’s (Unit Loading Devices)',
+        ru: 'Планирование и укрупнение грузовых мест',
+        uk: 'Планування та укрупнення вантажних місць'
+      },
+      {
+        en: 'Booking air export shipments with several airlines/carriers',
+        ru: 'Бронювання авіаекспортних відправлень у авіакомпаній/перевізників',
+        uk: 'Бронирование авиаэкспортных отправлений у авиакомпаний/перевозчиков'
+      },
+      {
+        en: 'Building a network/relations with the carriers and origin stations',
+        ru: 'Построение сети/отношений с перевозчиками и грузоотправителями',
+        uk: 'Побудова мережі/відносини з перевізниками та вантажовідправниками'
+      },
+      {
+        en: 'Working closely with our colleagues of the export warehouse',
+        ru: 'Тесное сотрудничество с нашими коллегами экспортного склада',
+        uk: 'Тісно співпрацюємо з нашими колегами з експортного складу'
+      }
+    ],
+    tools: ['Microsoft Office, ETMS'],
+  },
+  {
+    title: 'Warehouse operative – lead hand (as of June 2017)',
+    company: 'EXPEDITORS INTERNATIONAL (UK) LIMITED',
+    dates: {
+      en: 'Apr. 2015 – Aug. 2018',
+      ru: 'Апр. 2015 – Авг. 2018',
+      uk: 'Кві. 2015 – Сер. 2018'
+    },
+    address: { en: '1 Ascot Road Bedfont Middlesex TW14 8QH' },
+    duties: [
+      {
+        en: 'ensuring smooth flow of freight transiting through warehouse, including but not limited to booking-in process, screening freight, storing procedures, consolidating shipments for gateway, ULD builds, cross-dock shipments, other duties as assigned',
+        ru: 'обеспечение беспрепятственного потока грузов, проходящих через склад, включая, помимо прочего, процесс приемки, досмотр грузов, процедуры хранения, консолидацию грузов для укрупнения грузовых мест, сборку авиаконтейнеров, кросс-докинг, другие обязанности по назначению',
+        uk: 'забезпечення безперешкодного потоку вантажів, що проходять через склад, включаючи, окрім іншого, процес приймання, огляд вантажів, процедури зберігання, консолідацію вантажів для укрупнення вантажних місць, збирання авіаконтейнерів, крос-докінг, інші обов\'язки за призначенням'
       }
     ],
     tools: [
-      'TypeScript',
-      'React',
-      'React Native',
-      'NextJS',
-      'Strapi',
-      'PostgreSQL',
-      'AWS'
-    ],
-    description: {
-      en: 'I worked on creating sites using SSR technology, admin panels, content editors and APIs.',
-      ru: 'Я работал над созданием сайтов с использованием технологии SSR, админ-панелей, редакторов контента и API.',
-      uk: 'Я працював над створенням сайтів за технологією SSR, панелями адміністратора, редакторами контенту та API.'
-    }
+      'Сounterbalance Forklift',
+      'Reach Truck',
+      'Microsoft Office',
+      'ETMS',
+      'X-Ray Machine',
+      'ETD Machine'
+    ]
   },
   {
-    title: 'Full-stack developer',
-    company: 'Appsider',
+    title: 'Warehouse operative',
+    company: 'First Choice Staff',
     dates: {
-      en: 'Mar. 2020 – Aug. 2021',
-      ru: 'Март 2020 – Авг. 2021',
-      uk: 'Бер. 2020 – Сер. 2021'
-    },
-    address: { en: 'Remote', ru: 'Удаленно', uk: 'Дистанційно' },
-    duties: [
-      {
-        en: 'Development of mobile applications',
-        ru: 'Разработка мобильных приложений',
-        uk: 'Розробка мобільних додатків'
-      },
-      {
-        en: 'Development of WEB-services',
-        ru: 'Разработка WEB-сервисов',
-        uk: 'Розробка WEB-сервісів'
-      },
-      {
-        en: 'Development of BackEnd’s API',
-        ru: 'Разработка BackEnd API',
-        uk: 'Розробка BackEnd API'
-      }
-    ],
-    tools: [
-      'React',
-      'React Native',
-      'Laravel',
-      'MySQL',
-      'PostgreSQL',
-      'Java',
-      'Objective-C',
-      'Python'
-    ],
-    description: {
-      en: 'For all the time I worked on 5 applications for Android and iOS. Over some of them as a Full-stack developer.',
-      ru: 'За все время я работал над 5 приложениями для Android и iOS. Над некоторыми из них в качестве Full-stack разработчика.',
-      uk: 'За весь час працював над 5 додатками для Android та iOS. Над деякими з них як розробник повного стека.'
-    }
-  },
-  {
-    title: 'Application developer',
-    company: 'NexWeel',
-    dates: {
-      en: 'Mar. 2017 – Jan. 2018',
-      ru: 'Март 2017 – Янв. 2018',
-      uk: 'Бер. 2017 – Січ. 2018'
+      en: 'May 2014 – Mar. 2015',
+      ru: 'Май 2014 – Мар. 2015',
+      uk: 'Тра. 2014 – Бер. 2018'
     },
     address: {
-      en: '38 Rishelievskaya Street, Odessa, Ukraine',
-      ru: 'Украина, Одесса, ул. Ришельевская 38',
-      uk: 'Україна, Одеса, вул. Рішельєвська 38'
+      en: 'Ashford Middlesex'
     },
     duties: [
       {
-        en: 'Software development',
-        ru: 'Разработка программного обеспечения',
-        uk: 'Розробка програмного забезпечення'
-      },
-      {
-        en: 'WEB development',
-        ru: 'Веб-разработка',
-        uk: 'Веб-розробка'
+        en: 'preparing shipments, loading/unloading lorries, labeling, breaking down / building up pallets, other duties as assigned',
+        ru: 'подготовка отгрузок, погрузка/разгрузка грузовиков, маркировка, разборка/сборка поддонов, другие обязанности по назначению',
+        uk: 'підготовка відправлень, навантаження/розвантаження вантажівок, маркування, розбирання/складання палет, інші обов’язки за призначенням'
       }
     ],
-    tools: ['Delphi', 'JavaScript', 'PHP', 'MySQL'],
-    description: {
-      en: 'I worked in a team on developing a logistical software for a shipping company.',
-      ru: 'Я работал в команде по разработке логистического программного обеспечения для судоходной компании.',
-      uk: 'Я працював у команді над розробкою логістичного програмного забезпечення для судноплавної компанії.'
-    }
+    tools: ['Сounterbalance Forklift', 'Reach Truck'],
   },
   {
-    title: 'WEB Full-stack developer',
-    company: 'Skylogic',
+    title: 'Security guard',
+    company: 'SPORTS FEDERATION OF BODYBUILDING OF THE ODESSA REGION',
     dates: {
-      en: 'Apr. 2016 – Feb. 2017',
-      ru: 'Апр. 2016 – Фев. 2017',
-      uk: 'Кві. 2016 – Лют. 2017'
+      en: 'Jul. 2013 – May 2014',
+      ru: 'Июл. 2013 – Май. 2014',
+      uk: 'Лип. 2013 – Тра. 2014'
     },
     address: {
-      en: '19/21 Book Lane, Odessa, Ukraine',
-      ru: 'Украина, Одесса, пер. Книжный 19',
-      uk: 'Україна, Одеса, пров. Книжковий 19'
+      en: '65058, Shevchenko Avenue, Bldg. 31, Odessa Sport Palace, Odessa Ukraine',
+      ru: '65058, проспект Шевченко, корп. 31, Одесский Дворец Спорта, Одесса Украина',
+      uk: '65058, проспект Шевченка, буд. 31, Одеський Палац Спорту, Одеса Україна'
     },
     duties: [
       {
-        en: 'Development of new websites',
-        ru: 'Разработка новых веб-сайтов',
-        uk: 'Розробка нових веб-сайтів'
-      },
-      {
-        en: 'Maintenance of the old sites',
-        ru: 'Обслуживание старых сайтов',
-        uk: 'Обслуговування старих сайтів'
-      },
-      {
-        en: "Development company's own CMS",
-        ru: 'Разработка CMS компании',
-        uk: 'Розробка CMS компанії'
+        en: 'ensuring order in fitness centre and during various sport competition',
+        ru: 'обеспечение порядка в фитнес-центре и во время различных спортивных соревнований',
+        uk: 'забезпечення порядку у фітнес-центрі та під час різноманітних спортивних змагань'
       }
     ],
-    tools: ['JavaScript', 'PHP', 'MySQL']
-  },
-  {
-    title: 'IT Director',
-    partTime: true,
-    company: {
-      en: 'Gym Network "Champion"',
-      ru: 'Сеть СК "Чемпион"',
-      uk: 'Мережа СК "Чемпіон"'
-    },
-    dates: {
-      en: 'Sep. 2008 – Present',
-      ru: 'Сен. 2008 – Настоящее время',
-      uk: 'Вер. 2008 – Даний час'
-    },
-    address: {
-      en: 'Odessa, Ukraine',
-      ru: 'Украина, Одесса',
-      uk: 'Україна, Одеса'
-    },
-    duties: [
-      {
-        en: 'Mainly providing IT support and maintenance to the whole gym network',
-        ru: 'IT-поддержка и обслуживание всей сети тренажерных залов',
-        uk: 'IT-підтримка та обслуговування всієї мережі тренажерних залів'
-      },
-      {
-        en: 'Software development',
-        ru: 'Разработка программного обеспечения',
-        uk: 'Розробка програмного забезпечення'
-      },
-      {
-        en: 'Designing and visualization of premises interiors',
-        ru: 'Проектирование и дизайн интерьеров помещений',
-        uk: "Проектування та дизайн інтер'єрів приміщень"
-      }
-    ],
-    tools: [
-      'Delphi',
-      'TypeScript',
-      'React',
-      'PHP',
-      'MySQL',
-      'SQLite',
-      'AutoCAD',
-      '3D Max'
-    ],
-    description: {
-      en: 'I developed a number of software for work with customers. I also developed a bookkeeping software for fitness-cafe and many other different software for specific tasks. All programs linked with ERP-system for monitoring gyms’ work flow in real time, cash flow, payroll and salary transfer, expenses and viewing reports. Of course the website was on me.',
-      ru: 'Разработал ряд программ для работы с клиентами. Также я разработал бухгалтерский софт для фитнес-кафе и много другого различного софта под конкретные задачи. Все программы связаны с ERP-системой для мониторинга рабочего процесса тренажерных залов в режиме реального времени, движения денежных средств, начисления заработной платы, расходов и просмотра отчетов. Конечно, сайт был так же на мне.',
-      uk: "Розробив низку програм для роботи з клієнтами. Також я розробив бухгалтерський софт для фітнес-кафе та багато іншого різного софту під конкретні завдання. Усі програми пов'язані з ERP-системою для моніторингу робочого процесу тренажерних залів у режимі реального часу, руху коштів, нарахування заробітної плати, витрат та перегляду звітів. Звичайно, сайт був також на мені."
-    }
-  },
-  {
-    title: 'IT Developer',
-    partTime: true,
-    company: {
-      en: 'Sports Federation Of Bodybuilding Of The Odessa Region',
-      ru: 'Спортивная Федерация Бодибилдинга Одесской Области',
-      uk: 'Спортивна Федерація Бодібілдингу Одеської області'
-    },
-    dates: {
-      en: 'Sep. 2010 – May. 2014',
-      ru: 'Сен. 2010 – Май 2014',
-      uk: 'Вер. 2010 – Тра. 2014'
-    },
-    address: {
-      en: '31 Shevchenko Avenue, Odessa, Ukraine',
-      ru: 'Украина, Одесса, пр‑кт Шевченко 31',
-      uk: 'Україна, Одеса, пр‑кт Шевченка 31'
-    },
-    duties: [
-      {
-        en: 'Software development',
-        ru: 'Разработка программного обеспечения',
-        uk: 'Розробка програмного забезпечення'
-      },
-      {
-        en: 'Technical support for various sport competitions',
-        ru: 'Техническое обеспечение различных спортивных соревнований',
-        uk: 'Технічна підтримка різноманітних спортивних змагань'
-      }
-    ],
-    tools: ['Delphi', 'JavaScript', 'PHP', 'MySQL', 'SQLite'],
-    description: {
-      en: 'I developed a software for managing the competition starting from preliminary participants’ registration on website and ending with printing out award letters and issuing full reports. For many years it has been used for competitions at regional level, several times at national Ukrainian level and was presented on a championship in Saint Petersburg.',
-      ru: 'Я разработал программное обеспечение для ведения соревнований, начиная от предварительной регистрации участников на сайте и заканчивая распечаткой грамот и выдачей полных отчетов. На протяжении многих лет оно использовалось для соревнований регионального уровня, несколько раз национального уровня в Украине и было представлено на чемпионате в Санкт-Петербурге.',
-      uk: 'Я розробив програмне забезпечення для проведення змагань, починаючи від попередньої реєстрації учасників на сайті і закінчуючи роздруком грамот і видачею повних звітів. Протягом багатьох років воно використовувалося для змагань регіонального рівня, кілька разів національного рівня в Україні та було представлено на чемпіонаті у Санкт-Петербурзі.'
-    }
+    tools: ['Microsoft Office']
   }
 ];
 

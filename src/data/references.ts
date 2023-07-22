@@ -5,43 +5,21 @@ interface Reference {
   position: Locales;
   company: Locales | string;
   phone: string;
-  email: string;
+  email?: string;
 }
 
 const references: Reference[] = [
   {
     name: {
-      en: 'Marina Sopinskaya',
-      ru: 'Марина Сопинская',
-      uk: 'Марина Сопінська'
+      en: 'Emlit Pereira'
     },
     position: {
-      en: 'General Manager',
-      ru: 'Главный управляющий',
-      uk: 'Головний менеджер'
+      en: 'Gateway Operations Manager'
     },
     company: {
-      en: 'Gym Network "Champion"',
-      ru: 'Сеть СК "Чемпион"',
-      uk: 'Мережа СК "Чемпіон"'
+      en: 'C. H. Robinson',
     },
-    phone: '+38 098 218-09-24',
-    email: 'sopinskaya96@gmail.com'
-  },
-  {
-    name: {
-      en: 'Aleksandr Tsybenko',
-      ru: 'Александр Цыбенко',
-      uk: 'Олександр Цибенко'
-    },
-    position: {
-      en: 'Team lead programmer',
-      ru: 'Ведущий программист',
-      uk: 'Ведучий програміст'
-    },
-    company: 'Skylogic',
-    phone: '+38 093 447-53-25',
-    email: 'cccaaavvv@gmail.com'
+    phone: '07809828215'
   }
 ];
 

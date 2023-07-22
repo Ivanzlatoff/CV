@@ -10,11 +10,11 @@ const languages: Language[] = [
   {
     name: { en: 'English', ru: 'Английский', uk: 'Англійська' },
     level: {
-      en: 'Upper-Intermediate',
-      ru: 'Выше среднего',
-      uk: 'Вище середнього'
+      en: 'Fluent',
+      ru: 'Свободно',
+      uk: 'Вільно'
     },
-    percent: 60
+    percent: 85
   },
   {
     name: { en: 'Russian', ru: 'Русский', uk: 'Російська' },
@@ -24,7 +24,7 @@ const languages: Language[] = [
   {
     name: { en: 'Ukrainian', ru: 'Украинский', uk: 'Українська' },
     level: { en: 'Fluent', ru: 'Свободно', uk: 'Вільно' },
-    percent: 85
+    percent: 90
   }
 ];
 

@@ -37,43 +37,42 @@ interface Contacts {
 }
 
 const contacts: Contacts = {
-  birth: { en: '05 October 1990', ru: '05 Октября 1990', uk: '05 Жовтня 1990' },
+  birth: { en: '28 December 1990', ru: '28 Декабря 1990', uk: '28 Грудня 1990' },
   address: {
-    en: 'Odessa, Ukraine, 65072',
-    ru: 'Одесса, Украина, 65072',
-    uk: 'Одеса, Україна, 65072'
+    en: 'London, UK',
+    ru: 'Лондон',
+    uk: 'Лондон'
   },
-  email: 'bleshcheev90@gmail.com',
+  email: 'ivanzlatoff@gmail.com',
   phones: [
     {
-      number: '+38 063 135-96-06',
+      number: '07 881 383907',
       messengers: [
         { icon: faViber, color: '#ae4b85' },
-        { icon: faWhatsapp, color: '#009847' }
+        { icon: faWhatsapp, color: '#009847' },
       ]
-    },
-    '+38 048 798-08-84'
+    }
   ],
   socials: [
     {
       icon: faLinkedin,
-      text: 'linkedin.com/in/blieshcheiev',
-      link: 'https://www.linkedin.com/in/blieshcheiev/'
+      text: 'linkedin.com/in/ivan-zlatov',
+      link: 'https://www.linkedin.com/in/ivan-zlatov-140626228/'
     },
     {
       icon: faInstagram,
-      text: 'instagram.com/arthur.skydiver',
-      link: 'https://instagram.com/arthur.skydiver'
+      text: 'instagram.com/ivanzlatoff',
+      link: 'https://instagram.com/ivanzlatoff'
     },
     {
       icon: faFacebook,
-      text: 'facebook.com/arthur.skydiver',
-      link: 'https://www.facebook.com/arthur.skydiver'
+      text: 'facebook.com/ivan.zlatov',
+      link: 'https://www.facebook.com/profile.php?id=100087480877782'
     },
     {
       icon: faTelegram,
-      text: '@Arthur_od',
-      link: 'https://t.me/Arthur_od'
+      text: '@ivanzlatoff',
+      link: 'https://t.me/ivanzlatoff'
     }
   ]
 };

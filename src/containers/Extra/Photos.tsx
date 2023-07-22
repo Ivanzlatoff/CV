@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import Carousel, { Modal, ModalGateway, ViewType } from 'react-images';
 import cn from 'classnames';
 
-import avatar from 'assets/photos/avatar.jpeg';
+import avatar from 'assets/photos/ava.png';
 import airport from 'assets/photos/airport.jpeg';
 import skydive from 'assets/photos/skydive.jpg';
 
