@@ -3,15 +3,15 @@ import Carousel, { Modal, ModalGateway, ViewType } from 'react-images';
 import cn from 'classnames';
 
 import avatar from 'assets/photos/ava.png';
-import airport from 'assets/photos/airport.jpeg';
-import skydive from 'assets/photos/skydive.jpg';
+import lake from 'assets/photos/lake.png';
+import shard from 'assets/photos/shard.png';
 
 import s from './styles.module.scss';
 
 const images: ViewType[] = [
   { source: avatar },
-  { source: airport },
-  { source: skydive }
+  { source: lake },
+  { source: shard }
 ];
 
 type Props = {
