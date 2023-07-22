@@ -1,6 +1,6 @@
 # Ivan Zlatov CV
 
-[https://github.com/Ivanzlatoff/CV/](https://github.com/Ivanzlatoff/CV/)
+[https://github.com/Ivanzlatoff/CV/](https://ivanzlatoff.github.io/CV/)
 
 ### `npm i`
 
