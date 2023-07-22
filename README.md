@@ -1,4 +1,4 @@
-# Artur Blieshcheiev CV
+# Ivan Zlatov CV
 
 [https://github.com/Ivanzlatoff/CV/](https://github.com/Ivanzlatoff/CV/)
 
