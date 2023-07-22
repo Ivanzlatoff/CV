@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "version": "0.1.0",
-  "homepage": "https://artur-skydiver.github.io/cv/",
+  "homepage": "https://ivanzlatoff.github.io/CV/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
