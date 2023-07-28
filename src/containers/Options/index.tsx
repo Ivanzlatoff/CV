@@ -8,9 +8,9 @@ import ThemeSwitcher from 'components/ThemeSwitcher';
 import LanguageSwitcher from 'components/LanguageSwitcher';
 import Button from 'components/Button';
 
-import enCV from 'assets/pdf/Ivan.Zlatov.CV.pdf';
-import ruCV from 'assets/pdf/Ivan.Zlatov.CV.pdf';
-import ukCV from 'assets/pdf/Ivan.Zlatov.CV.pdf';
+import enCV from 'assets/pdf/Ivan.Zlatov.CV.En.pdf';
+import ruCV from 'assets/pdf/Ivan.Zlatov.CV.Ru.pdf';
+import ukCV from 'assets/pdf/Ivan.Zlatov.CV.Ua.pdf';
 
 import s from './styles.module.scss';
 
