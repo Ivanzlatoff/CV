@@ -10,6 +10,7 @@ import Works from 'sections/Works';
 import Experience from 'sections/Experience';
 import Education from 'sections/Education';
 import Additional from 'sections/Additional';
+import Projects from 'sections/Projects';
 import References from 'sections/References';
 
 import Name from 'components/Name';
@@ -46,6 +47,7 @@ export default () => {
         {/* <Experience /> */}
         <Education />
         <Additional />
+        <Projects />
       </div>
     </>
   );
