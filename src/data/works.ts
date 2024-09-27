@@ -13,6 +13,59 @@ interface Place {
 
 const works: Place[] = [
   {
+    title: 'Junior Front End Developer',
+    company: 'RAISILHOZENERGO',
+    dates: {
+      en: 'Jun. 2021 – present',
+      ru: 'Июн. 2021 – по сей день',
+      uk: 'Чер. 2021 – по цей день'
+    },
+    address: { en: 'Tatarbunary, Bilhorod-Dnistrovskiy district, Odesa region, Ukraine ' },
+    duties: [
+      {
+        en: 'Building visual elements: create the visual components of a page, such as buttons, menus, forms, and layout',
+        ru: 'Создание визуальных элементов, создание визуальных компонентов страницы, такие как кнопки, меню, формы и макет',
+        uk: 'Побудова візуальних елементів, створення візуальних компонентів сторінки, такі як кнопки, меню, форми та макет'
+      },
+      {
+        en: 'Writing clean, maintainable, and efficient code',
+        ru: 'Написание чистого, поддерживаемого и эффективного кода',
+        uk: 'Написання чистого, підтримуваного та ефективного коду'
+      },
+      {
+        en: 'Improving website performance by optimizing assets (images, scripts, etc.) and minimizing load times',
+        ru: 'Улучшение производительности сайта путем оптимизации ресурсов (изображений, скриптов и т. д.) и минимизации времени загрузки',
+        uk: 'Покращення продуктивності сайту шляхом оптимізації ресурсів (зображень, скриптів тощо) та мінімізації часу завантаження'
+      },
+      {
+        en: 'Using version control systems (e.g., Git) to manage code changes and collaborate with team members',
+        ru: 'Использование систем контроля версий (Git) для управления изменениями кода и совместной работы с членами команды',
+        uk: 'Використання систем контролю версій (Git) для управління змінами коду та співпраці з членами команди'
+      },
+      {
+        en: 'Working closely with designers, back-end developers, and other stakeholders to ensure a cohesive user experience',
+        ru: 'Тесное сотрудничество с дизайнерами, разработчиками на стороне сервера и другими заинтересованными сторонами для обеспечения согласованного пользовательского опыта',
+        uk: 'Тісна співпраця з дизайнерами, розробниками на стороні сервера та іншими зацікавленими сторонами для забезпечення узгодженого користувацького досвіду'
+      },
+      {
+        en: 'Identifying and fixing bugs and issues in the front-end code',
+        ru: 'Выявление и исправление ошибок и проблем в коде фронтенда',
+        uk: 'Виявлення та виправлення помилок і проблем у фронтенд-коді'
+      },
+      {
+        en: 'Staying updated with the latest trends, tools, and technologies in front-end development',
+        ru: 'Оставаться в курсе последних тенденций, инструментов и технологий в разработке фронтенда',
+        uk: 'Залишатися в курсі останніх тенденцій, інструментів і технологій у фронтенд-розробці'
+      },
+      {
+        en: 'Writing documentation for code and development processes to facilitate team collaboration and future maintenance',
+        ru: 'Написание документации для кода и процессов разработки для облегчения командного сотрудничества и будущего обслуживания',
+        uk: 'Написання документації для коду та процесів розробки для полегшення командної співпраці та майбутнього обслуговування'
+      }
+    ],
+    tools: ['Node JS, WordPress, TypeScript, JavaScript, React, Redux, Prisma, Next JS, Next Auth, Shad CN'],
+  },
+  {
     title: 'Gateway Operator',
     company: 'DB Schenker Ltd',
     dates: {
