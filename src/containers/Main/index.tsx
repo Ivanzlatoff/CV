@@ -47,7 +47,7 @@ export default () => {
         {/* <Experience /> */}
         <Education />
         <Additional />
-        <Projects />
+        {/* <Projects /> */}
       </div>
     </>
   );

@@ -4,7 +4,7 @@ export const projectApps = [
         website: 'https://vb-ecommerce-store.vercel.app/'
     },
     {
-        name: 'E-commerce app for selling grapes using React and Node',
-        website: 'https://chipper-otter-9d2e31.netlify.app/'
+        name: 'E-commerce app for selling air conditioners using Next JS',
+        website: 'https://zlato-climate-store.vercel.app/'
     },
 ];

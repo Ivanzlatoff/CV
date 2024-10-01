@@ -14,13 +14,13 @@ interface Place {
 const works: Place[] = [
   {
     title: 'Junior Front End Developer',
-    company: 'RAISILHOZENERGO',
+    company: 'UKRENERGO',
     dates: {
       en: 'Jun. 2021 – present',
       ru: 'Июн. 2021 – по сей день',
       uk: 'Чер. 2021 – по цей день'
     },
-    address: { en: 'Tatarbunary, Bilhorod-Dnistrovskiy district, Odesa region, Ukraine ' },
+    address: { en: 'Odesa region, Ukraine' },
     duties: [
       {
         en: 'Building visual elements: create the visual components of a page, such as buttons, menus, forms, and layout',
@@ -63,7 +63,18 @@ const works: Place[] = [
         uk: 'Написання документації для коду та процесів розробки для полегшення командної співпраці та майбутнього обслуговування'
       }
     ],
-    tools: ['Node JS, WordPress, TypeScript, JavaScript, React, Redux, Prisma, Next JS, Next Auth, Shad CN'],
+    tools: [
+      'Node JS',
+      'WordPress',
+      'TypeScript',
+      'JavaScript',
+      'React',
+      'Redux',
+      'Prisma',
+      'Next JS',
+      'Next Auth',
+      'Shad CN'
+    ]
   },
   {
     title: 'Gateway Operator',
@@ -73,7 +84,9 @@ const works: Place[] = [
       ru: 'Мар. 2019 – по сей день',
       uk: 'Бер. 2019 – по цей день'
     },
-    address: { en: 'Schenker House, LHR Portal, Scylla Road, London Heathrow Airport, Hounslow, TW6 3FE, UK ' },
+    address: {
+      en: 'Schenker House, LHR Portal, Scylla Road, London Heathrow Airport, Hounslow, TW6 3FE, UK '
+    },
     duties: [
       {
         en: 'Monitor and action generic email boxes and respond in a timely manner',
@@ -101,7 +114,13 @@ const works: Place[] = [
         uk: 'Відстеження рейсів'
       }
     ],
-    tools: ['Microsoft Office, ProCarS, Sequoia'],
+    tools: [
+      'Microsoft Office',
+      'ProCarS',
+      'TANGO',
+      'Sequoia',
+      'Booking Websites'
+    ]
   },
   {
     title: 'Air Export Gateway Agent',
